@@ -17,7 +17,7 @@ package au.edu.unsw.sltf.services;
 public interface CurrenyConvertMarketDataResponseDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s371C406791DAB9AF4AD8C08879BCE694").resolveHandle("currenyconvertmarketdataresponse98ecdoctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataResponseDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("currenyconvertmarketdataresponse98ecdoctype");
     
     /**
      * Gets the "currenyConvertMarketDataResponse" element
@@ -42,7 +42,7 @@ public interface CurrenyConvertMarketDataResponseDocument extends org.apache.xml
     public interface CurrenyConvertMarketDataResponse extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s371C406791DAB9AF4AD8C08879BCE694").resolveHandle("currenyconvertmarketdataresponse5124elemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataResponse.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("currenyconvertmarketdataresponse5124elemtype");
         
         /**
          * Gets the "eventSetId" element

@@ -45,7 +45,7 @@ public class WebServiceClient {
         } catch (CurrenyConvertMarketDataFaultException ce) {
         	CurrenyConvertMarketDataFaultDocument faultDoc = ce.getFaultMessage();
         	CurrenyConvertMarketDataFault fault = faultDoc.getCurrenyConvertMarketDataFault();
-        	String faultType = fault.getInvalidMarketData();
+        	String faultType = fault.getInvalidMarketData().toString();
         	result = "Fault type: " + faultType;
         }
 

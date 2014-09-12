@@ -17,7 +17,7 @@ package au.edu.unsw.sltf.services;
 public interface CurrenyConvertMarketDataFaultDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataFaultDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s371C406791DAB9AF4AD8C08879BCE694").resolveHandle("currenyconvertmarketdatafault3553doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataFaultDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("currenyconvertmarketdatafault3553doctype");
     
     /**
      * Gets the "currenyConvertMarketDataFault" element
@@ -42,27 +42,27 @@ public interface CurrenyConvertMarketDataFaultDocument extends org.apache.xmlbea
     public interface CurrenyConvertMarketDataFault extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataFault.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s371C406791DAB9AF4AD8C08879BCE694").resolveHandle("currenyconvertmarketdatafaultf8a0elemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataFault.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("currenyconvertmarketdatafaultf8a0elemtype");
         
         /**
          * Gets the "InvalidMarketData" element
          */
-        java.lang.String getInvalidMarketData();
+        au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType.Enum getInvalidMarketData();
         
         /**
          * Gets (as xml) the "InvalidMarketData" element
          */
-        org.apache.xmlbeans.XmlString xgetInvalidMarketData();
+        au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType xgetInvalidMarketData();
         
         /**
          * Sets the "InvalidMarketData" element
          */
-        void setInvalidMarketData(java.lang.String invalidMarketData);
+        void setInvalidMarketData(au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType.Enum invalidMarketData);
         
         /**
          * Sets (as xml) the "InvalidMarketData" element
          */
-        void xsetInvalidMarketData(org.apache.xmlbeans.XmlString invalidMarketData);
+        void xsetInvalidMarketData(au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType invalidMarketData);
         
         /**
          * A factory class with static methods for creating instances

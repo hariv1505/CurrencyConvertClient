@@ -28,7 +28,7 @@
             <xs:element name="currenyConvertMarketDataFault">
                 <xs:complexType>
                     <xs:sequence>
-                        <xs:element name="InvalidMarketData" nillable="false" type="xs:string"></xs:element>
+                        <xs:element name="InvalidMarketData" nillable="false" type="ns:currenyConvertMarketDataFaultType"></xs:element>
                     </xs:sequence>
                 </xs:complexType>
             </xs:element>

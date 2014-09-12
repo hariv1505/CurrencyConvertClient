@@ -16,7 +16,7 @@ package org.xmlsoap.schemas.soap.encoding;
 public interface ArrayCoordinate extends org.apache.xmlbeans.XmlString
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(ArrayCoordinate.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s371C406791DAB9AF4AD8C08879BCE694").resolveHandle("arraycoordinateb285type");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(ArrayCoordinate.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("arraycoordinateb285type");
     
     /**
      * A factory class with static methods for creating instances

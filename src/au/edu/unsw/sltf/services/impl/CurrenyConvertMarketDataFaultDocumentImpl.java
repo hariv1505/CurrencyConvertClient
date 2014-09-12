@@ -93,7 +93,7 @@ public class CurrenyConvertMarketDataFaultDocumentImpl extends org.apache.xmlbea
         /**
          * Gets the "InvalidMarketData" element
          */
-        public java.lang.String getInvalidMarketData()
+        public au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType.Enum getInvalidMarketData()
         {
             synchronized (monitor())
             {
@@ -104,20 +104,20 @@ public class CurrenyConvertMarketDataFaultDocumentImpl extends org.apache.xmlbea
                 {
                     return null;
                 }
-                return target.getStringValue();
+                return (au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType.Enum)target.getEnumValue();
             }
         }
         
         /**
          * Gets (as xml) the "InvalidMarketData" element
          */
-        public org.apache.xmlbeans.XmlString xgetInvalidMarketData()
+        public au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType xgetInvalidMarketData()
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.XmlString target = null;
-                target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(INVALIDMARKETDATA$0, 0);
+                au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType target = null;
+                target = (au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType)get_store().find_element_user(INVALIDMARKETDATA$0, 0);
                 return target;
             }
         }
@@ -125,7 +125,7 @@ public class CurrenyConvertMarketDataFaultDocumentImpl extends org.apache.xmlbea
         /**
          * Sets the "InvalidMarketData" element
          */
-        public void setInvalidMarketData(java.lang.String invalidMarketData)
+        public void setInvalidMarketData(au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType.Enum invalidMarketData)
         {
             synchronized (monitor())
             {
@@ -136,23 +136,23 @@ public class CurrenyConvertMarketDataFaultDocumentImpl extends org.apache.xmlbea
                 {
                     target = (org.apache.xmlbeans.SimpleValue)get_store().add_element_user(INVALIDMARKETDATA$0);
                 }
-                target.setStringValue(invalidMarketData);
+                target.setEnumValue(invalidMarketData);
             }
         }
         
         /**
          * Sets (as xml) the "InvalidMarketData" element
          */
-        public void xsetInvalidMarketData(org.apache.xmlbeans.XmlString invalidMarketData)
+        public void xsetInvalidMarketData(au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType invalidMarketData)
         {
             synchronized (monitor())
             {
                 check_orphaned();
-                org.apache.xmlbeans.XmlString target = null;
-                target = (org.apache.xmlbeans.XmlString)get_store().find_element_user(INVALIDMARKETDATA$0, 0);
+                au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType target = null;
+                target = (au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType)get_store().find_element_user(INVALIDMARKETDATA$0, 0);
                 if (target == null)
                 {
-                    target = (org.apache.xmlbeans.XmlString)get_store().add_element_user(INVALIDMARKETDATA$0);
+                    target = (au.edu.unsw.sltf.services.CurrenyConvertMarketDataFaultType)get_store().add_element_user(INVALIDMARKETDATA$0);
                 }
                 target.set(invalidMarketData);
             }
