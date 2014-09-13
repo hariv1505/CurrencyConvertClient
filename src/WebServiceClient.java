@@ -19,23 +19,25 @@ import au.edu.unsw.sltf.services.CurrenyConvertMarketDataResponseDocument.Curren
  */
 public class WebServiceClient {
 
-    public static void main(String[] args) {
+    public static String main(String[] args) {
         String wsURL = "http://localhost:8080/axis2/services/CurrencyConvertServices";
         try {
             CurrencyConvertServicesStub stub = new CurrencyConvertServicesStub(wsURL);
             System.out.println("The output of currencyConvertMarketData operation is: ");
-            System.out.println(callCurrencyConvertMarketDataOperation(stub));
+            String output = callCurrencyConvertMarketDataOperation(stub,args[0],args[1]);
+            return output;
         } catch (Exception ex) {
             ex.printStackTrace();
+            return "";
         }
     }
 
-    private static String callCurrencyConvertMarketDataOperation(CurrencyConvertServicesStub stub) throws Exception {
+    private static String callCurrencyConvertMarketDataOperation(CurrencyConvertServicesStub stub, String eventSetId, String targetCurrency) throws Exception {
         // Ready the request for rdthImport operation.
         CurrenyConvertMarketDataDocument reqDoc = CurrenyConvertMarketDataDocument.Factory.newInstance();
         CurrenyConvertMarketData req = reqDoc.addNewCurrenyConvertMarketData();
-        req.setEventSetId("12345");
-        req.setTargetCurrency("USD");        
+        req.setEventSetId(eventSetId);
+        req.setTargetCurrency(targetCurrency);        
 
         String result = "";
         try {
