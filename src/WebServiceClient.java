@@ -14,16 +14,16 @@ import au.edu.unsw.sltf.services.CurrenyConvertMarketDataResponseDocument.Curren
  */
 
 /**
- * Web service client that connects to the TopDownSimpleServices
+ * Web service client that connects to the CurrencyConvertServices
  * Web service.
  */
 public class WebServiceClient {
 
     public static void main(String[] args) {
-        String wsURL = "http://localhost:8080/axis2/services/TopDownSimpleServices";
+        String wsURL = "http://localhost:8080/axis2/services/CurrencyConvertServices";
         try {
             CurrencyConvertServicesStub stub = new CurrencyConvertServicesStub(wsURL);
-            System.out.println("The output of importMarketData operation is: ");
+            System.out.println("The output of currencyConvertMarketData operation is: ");
             System.out.println(callCurrencyConvertMarketDataOperation(stub));
         } catch (Exception ex) {
             ex.printStackTrace();
@@ -34,7 +34,7 @@ public class WebServiceClient {
         // Ready the request for rdthImport operation.
         CurrenyConvertMarketDataDocument reqDoc = CurrenyConvertMarketDataDocument.Factory.newInstance();
         CurrenyConvertMarketData req = reqDoc.addNewCurrenyConvertMarketData();
-        req.setEventSetId("3");
+        req.setEventSetId("12345");
         req.setTargetCurrency("USD");        
 
         String result = "";
