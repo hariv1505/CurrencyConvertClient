@@ -16,7 +16,7 @@ package org.xmlsoap.schemas.soap.encoding;
 public interface NormalizedString extends org.apache.xmlbeans.XmlNormalizedString
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NormalizedString.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("normalizedstring226etype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NormalizedString.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s32F35315F8116C7E8DFC4139B4A1118D").resolveHandle("normalizedstring226etype");
     
     /**
      * Gets the "id" attribute

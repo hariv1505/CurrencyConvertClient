@@ -17,7 +17,7 @@ package org.xmlsoap.schemas.soap.encoding;
 public interface DateDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(DateDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("date9844doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(DateDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s32F35315F8116C7E8DFC4139B4A1118D").resolveHandle("date9844doctype");
     
     /**
      * Gets the "date" element

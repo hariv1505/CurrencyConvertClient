@@ -17,7 +17,7 @@ package au.edu.unsw.sltf.services;
 public interface CurrenyConvertMarketDataFaultDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataFaultDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("currenyconvertmarketdatafault3553doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataFaultDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s32F35315F8116C7E8DFC4139B4A1118D").resolveHandle("currenyconvertmarketdatafault3553doctype");
     
     /**
      * Gets the "currenyConvertMarketDataFault" element
@@ -42,7 +42,7 @@ public interface CurrenyConvertMarketDataFaultDocument extends org.apache.xmlbea
     public interface CurrenyConvertMarketDataFault extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataFault.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("currenyconvertmarketdatafaultf8a0elemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(CurrenyConvertMarketDataFault.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s32F35315F8116C7E8DFC4139B4A1118D").resolveHandle("currenyconvertmarketdatafaultf8a0elemtype");
         
         /**
          * Gets the "InvalidMarketData" element

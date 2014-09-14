@@ -17,7 +17,7 @@ package org.xmlsoap.schemas.soap.encoding;
 public interface ENTITYDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(ENTITYDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s132E2824889D750E886A63AD8B616CEE").resolveHandle("entity23f9doctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(ENTITYDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s32F35315F8116C7E8DFC4139B4A1118D").resolveHandle("entity23f9doctype");
     
     /**
      * Gets the "ENTITY" element
